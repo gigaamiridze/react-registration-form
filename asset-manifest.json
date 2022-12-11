@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-registration-form/static/css/main.fdd06be8.css",
+    "main.js": "/react-registration-form/static/js/main.2b210410.js",
+    "static/js/787.6bfdf718.chunk.js": "/react-registration-form/static/js/787.6bfdf718.chunk.js",
+    "static/media/saly.png": "/react-registration-form/static/media/saly.c86da56d0333885aff53.png",
+    "index.html": "/react-registration-form/index.html",
+    "main.fdd06be8.css.map": "/react-registration-form/static/css/main.fdd06be8.css.map",
+    "main.2b210410.js.map": "/react-registration-form/static/js/main.2b210410.js.map",
+    "787.6bfdf718.chunk.js.map": "/react-registration-form/static/js/787.6bfdf718.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdd06be8.css",
+    "static/js/main.2b210410.js"
+  ]
+}
