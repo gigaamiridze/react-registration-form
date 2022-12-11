@@ -68,6 +68,18 @@ label:not(.agree-label) {
   margin-bottom: 5px;
   display: block;
 }
+.agree-label {
+  font-size: 11px;
+  margin-left: 10px;
+  width: 230px;
+  line-height: 15px;
+}
+.agree-label span {
+  font-weight: 500;
+}
+.input-box {
+  position: relative;
+}
 input:not(input[type='checkbox']) {
   width: 100%;
   height: 40px;
@@ -83,6 +95,30 @@ input:not(input[type='checkbox']) {
   background-color: transparent;
   box-shadow: 0px 2px 5px var(--grey1);
   transition: all 0.3s ease;
+}
+input[type='checkbox'] {
+  appearance: none;
+  width: 17px;
+  height: 17px;
+  background-color: transparent;
+  border: 2px solid var(--dark-grey);
+  border-radius: 5px;
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type='checkbox']::after {
+  content: '\f00c';
+  font-size: 9px;
+  font-weight: 900;
+  font-family: 'Font Awesome 6 Free';
+  color: var(--dark-grey);
+  display: none;
+}
+input[type='checkbox']:checked::after {
+  display: block;
 }
 input::placeholder {
   font-size: 12px;

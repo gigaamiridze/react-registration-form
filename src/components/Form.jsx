@@ -32,6 +32,12 @@ function Form() {
                 <i className='fa-solid fa-lock'></i>
               </div>
             </div>
+            <div className='form-group'>
+              <input type="checkbox" name="agree" id="agree" />
+              <label htmlFor="agree" className='agree-label'>
+                I've read and agree with <span>Terms of Service</span> and our <span>Privacy Police</span>
+              </label>
+            </div>
           </form>
         </div>
       </div>
