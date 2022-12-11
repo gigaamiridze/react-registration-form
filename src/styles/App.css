@@ -149,3 +149,10 @@ input::placeholder {
   font-family: 'Poppins', sans-serif;
   color: var(--white);
 }
+.image-block {
+  border-radius: 0 15px 15px 0;
+  background-image: linear-gradient(to right bottom, #2edcff, #28d3f7, #21caee, #19c2e6, #10b9dd, #00b4de, #00afdf, #00aae0, #00a7e9, #00a4f2, #1c9ff9, #3e9aff);
+}
+.saly-img {
+  max-width: 100%;
+}

@@ -42,7 +42,9 @@ function Form() {
           </form>
         </div>
       </div>
-      <div className='image-block'></div>
+      <div className='image-block'>
+        <img src={saly} className='saly-img' alt="Saly" />
+      </div>
     </>
   ); 
 }
