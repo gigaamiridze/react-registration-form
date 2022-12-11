@@ -10,6 +10,29 @@ function Form() {
           <img src={logo} className='logo' alt="Logo" />
           <h3>register</h3>
           <p>It's not long before you embark on this journey!</p>
+          <form>
+            <div className='form-group'>
+              <label htmlFor="email">E-mail</label>
+              <div className='input-box'>
+                <input type="email" placeholder='name@email.com' name='email' id='email' />
+                <i className='fa-regular fa-at'></i>
+              </div>
+            </div>
+            <div className='form-group'>
+              <label htmlFor="username">Username</label>
+              <div className='input-box'>
+                <input type="text" placeholder='gigaamiridze' name='username' id='username' />
+                <i className='fa-regular fa-user'></i>
+              </div>
+            </div>
+            <div className='form-group'>
+              <label htmlFor="password">Password</label>
+              <div className='input-box'>
+                <input type="password" placeholder='8+ Characters, 1 Capital letter' name='password' id='password' />
+                <i className='fa-solid fa-lock'></i>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
       <div className='image-block'></div>

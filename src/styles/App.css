@@ -51,3 +51,51 @@ body {
   font-weight: 400;
   color: var(--black);
 }
+form {
+  margin-top: 30px;
+}
+.form-group {
+  margin-bottom: 15px; 
+}
+.form-group:nth-child(4) {
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-start;
+}
+label:not(.agree-label) {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+}
+input:not(input[type='checkbox']) {
+  width: 100%;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  text-indent: 15px;
+  padding-right: 40px;
+  color: var(--black);
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid var(--grey1);
+  border-radius: 13px;
+  outline: none;
+  background-color: transparent;
+  box-shadow: 0px 2px 5px var(--grey1);
+  transition: all 0.3s ease;
+}
+input::placeholder {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--grey1);
+}
+.form-group input:focus:not(input[type='checkbox']) {
+  border-color: var(--black);
+}
+.form-group i {
+  color: var(--grey1); 
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
