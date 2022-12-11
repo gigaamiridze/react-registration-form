@@ -98,6 +98,7 @@ input:not(input[type='checkbox']) {
 }
 input[type='checkbox'] {
   appearance: none;
+  outline: none;
   width: 17px;
   height: 17px;
   background-color: transparent;
