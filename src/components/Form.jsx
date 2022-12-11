@@ -38,6 +38,7 @@ function Form() {
                 I've read and agree with <span>Terms of Service</span> and our <span>Privacy Police</span>
               </label>
             </div>
+            <button type='submit' className='submit-btn'>Create an account</button>
           </form>
         </div>
       </div>

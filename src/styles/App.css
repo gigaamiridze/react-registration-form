@@ -135,3 +135,17 @@ input::placeholder {
   right: 10px;
   transform: translateY(-50%);
 }
+.submit-btn {
+  width: 180px;
+  height: 37px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: var(--azul);
+  background-image: linear-gradient(to right, #04c0f9, #09c0f4, #12bfee, #1cbfe9, #25bee3, #1abbe5, #0db9e7, #00b6e9, #00aff2, #00a7f9, #229efe, #4d93ff);
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  color: var(--white);
+}
